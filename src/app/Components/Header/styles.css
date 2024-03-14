@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    display: flex;
+    height: 150px;
+}   
+
+header p{
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    
+}
+
+header img{
+    width: 260px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+}
