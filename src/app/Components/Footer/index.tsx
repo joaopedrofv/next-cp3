@@ -3,7 +3,7 @@ import './styles.css';
 const Footer = () => {
     return (
         <>
-        <footer className="rodape">
+        <footer>
             <p>Todos os direitos reservados</p>
         </footer>
         </>

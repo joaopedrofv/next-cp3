@@ -1,23 +1,26 @@
-header {
+.headerformat{
     background-color: black;
-    display: flex;
-    height: 150px;
+    height: 200px;
+    align-items: center;
+    padding-top: 10px;
 }   
 
-header p{
-    font-size: 25px;
+.texto{
+    margin: 10px;
     color: white;
-    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
     flex-grow: 1;
     text-align: center;
+    padding-right: 100px;
     padding-top: 50px;
-    font-weight: bold;
-    
+    padding-bottom: 50px;
 }
 
-header img{
-    width: 260px;
-    height: 150px;
-    position: fixed;
+.logo{
+    width: 225px;
+    height:140px;
+    position: absolute;
+    top: 0;
     left: 0;
-}
+}   
